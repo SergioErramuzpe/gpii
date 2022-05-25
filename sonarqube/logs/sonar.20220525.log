@@ -1,0 +1,168 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Unrecognized option: --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+JVM exited while loading the application.
+JVM Restarts disabled.  Shutting down.
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 22:35:04 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 22:35:04 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:37125]
+2022.05.25 22:35:04 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 22:35:04 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 22:35:06 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 22:35:06 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process189239182198387199properties
+2022.05.25 22:35:11 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 22:35:11 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 22:35:11 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 22:35:11 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 22:36:40 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 22:36:41 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:39635]
+2022.05.25 22:36:41 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 22:36:41 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 22:36:45 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 22:36:45 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process12108746714973739182properties
+2022.05.25 22:36:51 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 22:36:51 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 22:36:51 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 22:36:51 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 22:38:34 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 22:38:35 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:38547]
+2022.05.25 22:38:35 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 22:38:35 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 22:38:38 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 22:38:38 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process2180934508673156573properties
+2022.05.25 22:38:41 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 22:38:41 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 22:38:41 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 22:38:41 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 22:40:30 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 22:40:30 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:34351]
+2022.05.25 22:40:30 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 22:40:30 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 22:40:32 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 22:40:32 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process5411718194424560703properties
+2022.05.25 22:40:35 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 22:40:35 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 22:40:35 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 22:40:35 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 22:41:55 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 22:41:55 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:44181]
+2022.05.25 22:41:56 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 22:41:56 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 22:41:58 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 22:41:58 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process7693213477686220201properties
+2022.05.25 22:42:01 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 22:42:01 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 22:42:01 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 22:42:01 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 22:42:57 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 22:42:57 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:35653]
+2022.05.25 22:42:57 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 22:42:57 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 22:42:59 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 22:42:59 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process16632124832218585122properties
+2022.05.25 22:43:02 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 22:43:02 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 22:43:02 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 22:43:02 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 22:44:04 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 22:44:04 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:42717]
+2022.05.25 22:44:04 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 22:44:04 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 22:44:07 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 22:44:07 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process9631265570937888599properties
+2022.05.25 22:44:10 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 22:44:10 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 22:44:10 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 22:44:10 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 23:40:43 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 23:40:43 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:39891]
+2022.05.25 23:40:43 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 23:40:43 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 23:40:47 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 23:40:47 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process8825601805649949859properties
+2022.05.25 23:40:51 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 23:40:51 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 23:40:51 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 23:40:51 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 23:42:28 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 23:42:28 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:35677]
+2022.05.25 23:42:28 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 23:42:28 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 23:42:33 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 23:42:33 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process1045491769761282251properties
+2022.05.25 23:42:37 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 23:42:37 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 23:42:37 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 23:42:37 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.25 23:48:08 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp
+2022.05.25 23:48:09 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:43735]
+2022.05.25 23:48:09 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch]: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/elasticsearch/bin/elasticsearch
+2022.05.25 23:48:09 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.25 23:48:12 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.25 23:48:12 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/mnt/c/Users/Erra/Desktop/gpii/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/mnt/c/Users/Erra/Desktop/gpii/sonarqube/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /mnt/c/Users/Erra/Desktop/gpii/sonarqube/temp/sq-process11996909686462808752properties
+2022.05.25 23:48:19 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.05.25 23:48:19 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.05.25 23:48:19 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.05.25 23:48:19 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
