@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyRemovePaisDestinoActivity">
+
+    <ScrollView
+        android:layout_width="338dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/modifyPaisDestino">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Longitud"
+                android:inputType="numberSigned|numberDecimal" />
+
+            <EditText
+                android:id="@+id/etLatitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Latitud"
+                android:inputType="numberSigned|numberDecimal" />
+
+            <EditText
+                android:id="@+id/etCapital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Capital"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etCenso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Censo"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etHuso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Huso Horario"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etIdiomas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Idiomas"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etFrontera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Paises Fronterizos"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etMoneda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Moneda"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etPresidente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Presidente"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etPrimerMinistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Primer Ministro"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etGobierno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Tipo de Gobierno"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etOrgano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Organo de Gobierno"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="331dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Modifica o Borra el Pais de Origen seleccionado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/modifyPaisDestino"
+        android:layout_width="102dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:onClick="guardarNuevoPaisDestino"
+        android:text="Modificar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv5" />
+
+    <Button
+        android:id="@+id/removePaisDestino"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="8dp"
+        android:onClick="borrarPaisExistente"
+        android:text="Borrar"
+        app:layout_constraintStart_toEndOf="@+id/modifyPaisDestino"
+        app:layout_constraintTop_toBottomOf="@+id/tv5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
