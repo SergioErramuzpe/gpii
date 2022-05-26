@@ -25,14 +25,18 @@ cd ../
 cd sonarqube/bin/linux-x86-64
 echo -e "Iniciando SonarQube"
 ./sonar.sh start
-cd ../../
+cd ../../../
+echo -e " "
+echo -e " "
 
 cd app
 echo -e "Analisis de la Aplicacion-Web con SonarQube"
-sonar-scanner   -Dsonar.projectKey=php   -Dsonar.sources=.   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=783ccd838447d3102d7e96d1c1800e34400def70
-
-open http://localhost:9000/dashboard/index/php
+sonar-scanner \
+  -Dsonar.projectKey=org.sonarqube:php-ut-sq-scanner \
+  -Dsonar.sources=src \
+  -Dsonar.host.url=http://localhost:9000 
 echo -e "Analisis de la Aplicacion-Web con SonarQube finalizado"
+xdg-open http://localhost:9000/dashboard/index/org.sonarqube:php-ut-sq-scanner
 echo -e " "
 echo -e " "
 echo -e "Creacion de la Aplicacion-Web (PHAR)"
