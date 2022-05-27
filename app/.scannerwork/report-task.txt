@@ -2,5 +2,5 @@ projectKey=org.sonarqube:php-ut-sq-scanner
 serverUrl=http://localhost:9000
 serverVersion=9.4.0.54424
 dashboardUrl=http://localhost:9000/dashboard?id=org.sonarqube%3Aphp-ut-sq-scanner
-ceTaskId=AYD_-Na2Ryns7m8QkkJT
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYD_-Na2Ryns7m8QkkJT
+ceTaskId=AYEFbOhvRyns7m8QkkJ0
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYEFbOhvRyns7m8QkkJ0

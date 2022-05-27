@@ -13,7 +13,7 @@ http.host: 127.0.0.1
 path.logs: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/logs
 discovery.seed_hosts: 127.0.0.1
 cluster.initial_master_nodes: 127.0.0.1
-transport.port: '35371'
+transport.port: '46557'
 node.master: 'true'
 path.data: /mnt/c/Users/Erra/Desktop/gpii/sonarqube/data/es7
 node.name: sonarqube
